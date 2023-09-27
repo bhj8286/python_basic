@@ -21,3 +21,9 @@ elif point <= 30:
     print('강등입니다')
 else:
     print("잔류입니다")
+
+
+top_scorer = ['Rooney', 'Henry', 'Ronaldo', 'Gerrad', 'ji-sung Park']
+random_number = random.randint(0,4)
+print(top_scorer[random_number])
+print('득점왕입니다')
