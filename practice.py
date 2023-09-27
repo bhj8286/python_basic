@@ -27,3 +27,10 @@ top_scorer = ['Rooney', 'Henry', 'Ronaldo', 'Gerrad', 'ji-sung Park']
 random_number = random.randint(0,4)
 print(top_scorer[random_number])
 print('득점왕입니다')
+
+retirement = ['Kaka', 'Ozil', 'Cesc', 'Drogba']
+
+n = 0
+while n < 3:
+    print(retirement[n])
+    n = n + 1
