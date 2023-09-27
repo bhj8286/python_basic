@@ -31,6 +31,6 @@ print('득점왕입니다')
 retirement = ['Kaka', 'Ozil', 'Zidane', 'Drogba']
 print('은퇴자명단')
 n = 0
-while n < 3:
+while n < 6:
     print(retirement[n])
     n = n + 1
