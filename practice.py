@@ -12,7 +12,7 @@ point_dict = {
 print(point_dict['1위'])
 
 # 조건 
-point = 91
+point = 150
 if 80 <= point <= 100:
     print('우승입니다. 축하드립니다.')
 elif point >= 70:
