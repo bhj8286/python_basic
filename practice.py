@@ -28,8 +28,8 @@ random_number = random.randint(0,4)
 print(top_scorer[random_number])
 print('득점왕입니다')
 
-retirement = ['Kaka', 'Ozil', 'Cesc', 'Drogba']
-
+retirement = ['Kaka', 'Ozil', 'Zidane', 'Drogba']
+print('은퇴자명단')
 n = 0
 while n < 3:
     print(retirement[n])
