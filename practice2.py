@@ -1,26 +1,20 @@
 import random
-animals = ['dog', 'cat', 'tiger', 'lion']
+Fighting_skill = ['boxing', 'judo', 'taekwondo', 'karate']
 random_number = random.randint(0,3)
-# print(animals[random_number]) 
+print(Fighting_skill[random_number])
 
-back_number = ['10', '7', '4', '9']
-# print(back_number)
+power_level = 149
+if 10 <= power_level < 50:
+    print('약합니다')
+elif 50 <= power_level < 90:
+    print('보통입니다')
+elif 90 <= power_level < 150:
+    print('강합니다')
+else:
+    print('측정불가입니다')
 
-numbers = range(1, 46)
-lucky_number = random.sample(numbers, 6)
-# print(lucky_number)
-
-numbers = range(1, 46)
-lucky_number = random.sample(numbers, 6)
-# print(sorted(lucky_number))
-
-sports_game = ['soccer', 'baseball', 'basketball']
-random_number = random.randint(0, 2)
-# print(sports_game[random_number])
-
-numbers = [1, 2, 3, 4]
-max_naumber = max(numbers)
-# print(max_naumber)
-
-
-
+Top_mc_list = ['강호동', '유재석', '탁재훈']
+n = 0
+while n < 2:
+    print(Top_mc_list[n])
+    n = n + 1
