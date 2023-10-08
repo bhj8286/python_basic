@@ -62,3 +62,27 @@ for num in range(2, 10):
 menus = ['라면', '김밥', '떡볶이', '돈가스', '만두']
 for index, menu in enumerate(menus):
     print(index, ':', menu, sep='')
+
+numbers = [1, 2, 3, 4, 5, 6]
+for number in enumerate(numbers):
+    print(number)
+
+numbers = [1, 2, 3, 4, 5, 6]
+for key, Value in enumerate(numbers, start=1):
+    print(f'{key}는 {Value}번째입니다.')
+
+number = {
+    'one' : '1',
+    'two' : '2',
+    'three' : '3',  
+}
+for key, value in number.items():
+    print(f'{value}는 영어로 {key}입니다.')
+
+number = {
+    'one' : '1',
+    'two' : '2',
+    'three' : '3',  
+}
+for key, value in enumerate(number):
+    print(f'{value}는 영어로 {key}입니다.')
