@@ -28,3 +28,19 @@ while n < 4:
     print(BIGBANG_MEMBER_LIST[n])
     n = n + 1
 
+
+def rectangle(height, width):
+    area = height * width
+    perimeter = (height + width) * 2
+    print(area,perimeter)
+
+rectangle(20, 30)
+
+def greeting(name, age):
+    print(f'{name}님, {age}살 이시군요')
+
+greeting('호진', 25)
+
+greeting =''
+while greeting != '안녕':
+    greeting = input('안녕이라고 해줘 : ')
