@@ -86,3 +86,4 @@ number = {
 }
 for key, value in enumerate(number):
     print(f'{value}는 영어로 {key}입니다.')
+
