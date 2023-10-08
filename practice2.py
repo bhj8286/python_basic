@@ -58,3 +58,7 @@ for num in range(2, 10):
         continue
     print("Found an odd number", num)
 
+
+menus = ['라면', '김밥', '떡볶이', '돈가스', '만두']
+for index, menu in enumerate(menus):
+    print(index, ':', menu, sep='')
